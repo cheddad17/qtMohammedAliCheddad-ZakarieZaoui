@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
 >*[QLineEdit](#https://doc.qt.io/qt-5/qlineedit.html) and [QPushButton](#https://doc.qt.io/qt-5/qpushbutton.html) Classes were used to implement this form.*
  * `Our output:`  
  
-![](hBox.PNG)
+![](img/hBox.PNG)
 
 
 
@@ -214,7 +214,7 @@ int main(int argc, char *argv[])
 >*we also used the [QCheckBox](#https://doc.qt.io/qt-5/qcheckbox.html) Class and [addStretch](#https://doc.qt.io/qt-5/qboxlayout.html#addStretch) method.* 
  * `Our output:`  
  
-![](nestedLayout.PNG)
+![](img/nestedLayout.PNG)
 
 
 
@@ -316,7 +316,7 @@ int main(int argc, char *argv[])
 ```
  * `Our output:`  
  
-![](bugReportForm.PNG)
+![](img/bugReportForm.PNG)
 
 
 
@@ -415,7 +415,7 @@ int main(int argc, char *argv[])
 > *In this example we used [QLCDNumber](#https://doc.qt.io/qt-5/qlcdnumber.html) Class and some of its methods.* 
  * `Our output:`  
  
-![](gridLayout.PNG)
+![](img/gridLayout.PNG)
 
 > Again we only want the form, in your next lab you will implement a functional calculator.  
 <h1>Thank you for your time!
