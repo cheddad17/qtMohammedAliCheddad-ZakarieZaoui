@@ -29,7 +29,7 @@ Creating the forms below:
 Experimenting with QHBOXLayout
 ==============================
 
-Our goal is to create the following form based on [QHBOXLayout](#https://doc.qt.io/qt-5/qhboxlayout.html):      
+Our goal is to create the following form based on [QHBOXLayout](https://doc.qt.io/qt-5/qhboxlayout.html):      
 
 ![](https://anassbelcaid.github.io/CS311/homeworks/04_forms/hbox.png)
 
@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
     return app.exec();
 }
 ```
->*[QLineEdit](#https://doc.qt.io/qt-5/qlineedit.html) and [QPushButton](#https://doc.qt.io/qt-5/qpushbutton.html) Classes were used to implement this form.*
+>*[QLineEdit](https://doc.qt.io/qt-5/qlineedit.html) and [QPushButton](https://doc.qt.io/qt-5/qpushbutton.html) Classes were used to implement this form.*
  * `Our output:`  
  
 ![](hBox.PNG)
@@ -113,7 +113,7 @@ int main(int argc, char *argv[])
 Nested Layouts
 ==============
 
-Our goal here is use **Netsted layouts** *(a combination between [QHBoxLayout](#https://doc.qt.io/qt-5/qhboxlayout.html) and [QVBoxLayout](#https://doc.qt.io/qt-5/qvboxlayout.html))* to get the following form:
+Our goal here is use **Netsted layouts** *(a combination between [QHBoxLayout](https://doc.qt.io/qt-5/qhboxlayout.html) and [QVBoxLayout](https://doc.qt.io/qt-5/qvboxlayout.html))* to get the following form:
 
 
 ![](https://anassbelcaid.github.io/CS311/homeworks/04_forms/nesting.png)
@@ -219,7 +219,7 @@ int main(int argc, char *argv[])
     return app.exec();
 }
 ```
->*we also used the [QCheckBox](#https://doc.qt.io/qt-5/qcheckbox.html) Class and [addStretch](#https://doc.qt.io/qt-5/qboxlayout.html#addStretch) method.* 
+>*we also used the [QCheckBox](https://doc.qt.io/qt-5/qcheckbox.html) Class and [addStretch](https://doc.qt.io/qt-5/qboxlayout.html#addStretch) method.* 
  * `Our output:`  
  
 ![](nestedLayout.PNG)
@@ -332,12 +332,12 @@ int main(int argc, char *argv[])
 
 
 
-   >*We used [QFormLayout](#https://doc.qt.io/qt-5/qformlayout.html) and some of its  methods because it has  **expanding/fixed (width/height)** policy by default,and [QComboBox](#https://doc.qt.io/qt-5/qcombobox.html) and [QDialogButtonBox](#https://doc.qt.io/qt-5/qdialogbuttonbox.html).*
+   >*We used [QFormLayout](https://doc.qt.io/qt-5/qformlayout.html) and some of its  methods because it has  **expanding/fixed (width/height)** policy by default,and [QComboBox](https://doc.qt.io/qt-5/qcombobox.html) and [QDialogButtonBox](https://doc.qt.io/qt-5/qdialogbuttonbox.html).*
 
 Grid Layout
 ===========
 
-For the final exercise, we will be using one of the most **important** layouts [QGridLayout](#https://doc.qt.io/qt-5.15/qgridlayout.html) to create this **beautiful** form:  
+For the final exercise, we will be using one of the most **important** layouts [QGridLayout](https://doc.qt.io/qt-5.15/qgridlayout.html) to create this **beautiful** form:  
 
 ![](https://anassbelcaid.github.io/CS311/homeworks/04_forms/keypad.png)  
 
@@ -425,7 +425,7 @@ int main(int argc, char *argv[])
     return a.exec();
 }
 ```
-> *In this example we used [QLCDNumber](#https://doc.qt.io/qt-5/qlcdnumber.html) Class and some of its methods.* 
+> *In this example we used [QLCDNumber](https://doc.qt.io/qt-5/qlcdnumber.html) Class and some of its methods.* 
  * `Our output:`  
  
 ![](gridLayout.PNG)
