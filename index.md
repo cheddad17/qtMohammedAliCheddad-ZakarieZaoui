@@ -207,7 +207,8 @@ void nestedLayout::makeConnexions(){
 }
 ```
 and finaly,   
-* `main.cpp:`
+* `main.cpp:`  
+
 ```cpp
 int main(int argc, char *argv[])
 {
@@ -236,8 +237,8 @@ Our task is to create the following form to report a problem.
 
 *This one is fun! Here we go:*  
   
-  * `bugReportForm.h:`
-    
+  * `bugReportForm.h:`  
+  
 ```cpp
 class bugreport : public QWidget{
     Q_OBJECT
@@ -259,7 +260,8 @@ class bugreport : public QWidget{
     QDialogButtonBox* buttonBox;
 };
 ```
-* `bugReportForm.cpp:`
+* `bugReportForm.cpp:`  
+
 ```cpp
 void bugreport::createWidgets(){
 //creating lineEdits
@@ -309,7 +311,8 @@ bugreport::bugreport(QWidget* parent):QWidget(parent){
                 }
 ```
 and finally,   
-* `main.cpp:`
+* `main.cpp:`  
+
 ```cpp
 
 int main(int argc, char *argv[])
@@ -361,7 +364,8 @@ private:
 };
 };
 ```
-* `calculator.cpp:`
+* `calculator.cpp:`  
+
 ```cpp
     void calculator ::creatingWdgets(){
     	//creating the Pushbuttons
@@ -409,7 +413,8 @@ void calculator :: makeConnections(){
 }
 ```
 and finally,   
-* `main.cpp:`
+* `main.cpp:`  
+
 ```cpp
 int main(int argc, char *argv[])
 {
