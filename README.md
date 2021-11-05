@@ -1,5 +1,17 @@
-Programming Widget Layout (P.C)
-=========================
+Introduction
+============================== 
+* ***let's start by defining some of this lab fundamentals:***
+<h5 style="color:blue">what is GUI?</h5>
+
+GUI is a graphics-based operating system interface that uses icons, menus,***widgets**** and ***layouts****.  
+<h5 style="color:blue">what are widgets and layouts?</h5>
+
+**Widgets** are the primary elements for creating user interfaces in Qt. **Widgets** can display data and status information and receive user input.A widget can also be a **layout** that provides a container for other widgets that should be grouped together. A widget that is not embedded in a parent widget is called a **window**.
+
+* ***the goal of this chapter and lab:***
+  * The goal of this chapter(widgets and layouts) is to combine basic C++ with some basic QT functionality to create a few Graphical User Interface(GUI) applications.So in order to deeply understand this chapter we will be implementing in this lab some complex(little bit) applications using what we learned in the course and qt GUI documentation .
+
+
 
 Creating the forms below:
 -----------------------------------------
@@ -407,5 +419,4 @@ int main(int argc, char *argv[])
 
 > Again we only want the form, in your next lab you will implement a functional calculator.  
 <h1>Thank you for your time!
-
 
