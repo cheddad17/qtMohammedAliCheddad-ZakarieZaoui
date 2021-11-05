@@ -37,7 +37,7 @@ Our goal is to create the following form based on [QHBOXLayout](#https://doc.qt.
  
  
   *Easy! Here we go:*   
-  * `hBox.h:`
+  * `hBox.h:`  
     
 ```cpp
 class Dialog : public QWidget
@@ -57,7 +57,8 @@ protected:
   QHBoxLayout *layout;
 };
 ```
-* `hBox.cpp:`
+* `hBox.cpp:`  
+
 ```cpp
 
 Dialog::Dialog(QWidget *parent) : QWidget(parent)
@@ -89,7 +90,8 @@ void Dialog::makeConnexions(){
 }
 ```
 and finaly,
-* `main.cpp:`
+* `main.cpp:`  
+
 ```cpp
 
 int main(int argc, char *argv[])
@@ -147,7 +149,8 @@ private:
   QVBoxLayout *layoutS;
 };
 ```
-* `nestedLayout.cpp:`
+* `nestedLayout.cpp:`  
+
 ```cpp
 nestedLayout::nestedLayout(QWidget *parent) : QWidget(parent)
 {
