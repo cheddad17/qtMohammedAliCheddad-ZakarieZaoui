@@ -340,6 +340,7 @@ Grid Layout
 For the final exercise, we will be using one of the most **important** layouts [QGridLayout](#https://doc.qt.io/qt-5.15/qgridlayout.html) to create this **beautiful** form:  
 
 ![](https://anassbelcaid.github.io/CS311/homeworks/04_forms/keypad.png)  
+
 *Interesting! Here we go:*  
   
   * `calculator.h:`
