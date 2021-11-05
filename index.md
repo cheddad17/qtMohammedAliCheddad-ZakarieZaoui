@@ -1,7 +1,9 @@
 Widgets and Layouts(P.C)
-=========================
+=========================  
+
 Introduction
-============================== 
+==============================   
+
 * ***let's start by defining some of this lab fundamentals:***
 <h5 style="color:blue">what is GUI?</h5>
 
