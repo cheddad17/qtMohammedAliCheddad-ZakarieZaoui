@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
     return app.exec();
 }
 ```
->*We also used [QLineEdit](#https://doc.qt.io/qt-5/qlineedit.html) and [QPushButton](#https://doc.qt.io/qt-5/qpushbutton.html) Classes.*
+>*[QLineEdit](#https://doc.qt.io/qt-5/qlineedit.html) and [QPushButton](#https://doc.qt.io/qt-5/qpushbutton.html) Classes were used to implement this form.*
  * `Our output:`  
  
 ![](hBox.PNG)
